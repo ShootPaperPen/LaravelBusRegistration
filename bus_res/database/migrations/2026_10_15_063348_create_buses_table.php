@@ -21,6 +21,7 @@ return new class extends Migration
             $table->string("contact_number");
             $table->dateTime("departure_time");
             $table->dateTime("arrival_time");
+            $table->timestamps();
 
         });
     }
